@@ -306,6 +306,8 @@ public class MilasAndMetricGastronomyModModTabs {
 				tabData.accept(MilasAndMetricGastronomyModModItems.SERPIENTEHELADO_SPAWN_EGG.get());
 				tabData.accept(MilasAndMetricGastronomyModModItems.DUMPLINGIGANTE_SPAWN_EGG.get());
 				tabData.accept(MilasAndMetricGastronomyModModItems.MALTEADITO_SPAWN_EGG.get());
+				tabData.accept(MilasAndMetricGastronomyModModItems.BUTTERFROG_SPAWN_EGG.get());
+				tabData.accept(MilasAndMetricGastronomyModModItems.ARANDAN_SPAWN_EGG.get());
 			}).withTabsBefore(GASTRONOMICALWEAPONS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> BLACKFOOD = REGISTRY.register("blackfood",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.milas_and_metric_gastronomy_mod.blackfood")).icon(() -> new ItemStack(MilasAndMetricGastronomyModModItems.TINTEBLACK.get())).displayItems((parameters, tabData) -> {

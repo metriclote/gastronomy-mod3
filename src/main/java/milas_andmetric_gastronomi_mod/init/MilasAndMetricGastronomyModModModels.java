@@ -16,6 +16,7 @@ public class MilasAndMetricGastronomyModModModels {
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelvoladorsmore.LAYER_LOCATION, Modelvoladorsmore::createBodyLayer);
 		event.registerLayerDefinition(Modeldumplin.LAYER_LOCATION, Modeldumplin::createBodyLayer);
+		event.registerLayerDefinition(Modelbutterfrog.LAYER_LOCATION, Modelbutterfrog::createBodyLayer);
 		event.registerLayerDefinition(ModelHADA.LAYER_LOCATION, ModelHADA::createBodyLayer);
 		event.registerLayerDefinition(Modelcornfeti_popper.LAYER_LOCATION, Modelcornfeti_popper::createBodyLayer);
 		event.registerLayerDefinition(Modelphatompaleta.LAYER_LOCATION, Modelphatompaleta::createBodyLayer);
@@ -27,6 +28,7 @@ public class MilasAndMetricGastronomyModModModels {
 		event.registerLayerDefinition(Modelestatuanait.LAYER_LOCATION, Modelestatuanait::createBodyLayer);
 		event.registerLayerDefinition(Modeljuliancola.LAYER_LOCATION, Modeljuliancola::createBodyLayer);
 		event.registerLayerDefinition(Modelmilasguard.LAYER_LOCATION, Modelmilasguard::createBodyLayer);
+		event.registerLayerDefinition(Modelarandano.LAYER_LOCATION, Modelarandano::createBodyLayer);
 		event.registerLayerDefinition(Modelgummy_bear.LAYER_LOCATION, Modelgummy_bear::createBodyLayer);
 		event.registerLayerDefinition(Modelsandwich.LAYER_LOCATION, Modelsandwich::createBodyLayer);
 		event.registerLayerDefinition(Modelbloqueserpiente.LAYER_LOCATION, Modelbloqueserpiente::createBodyLayer);

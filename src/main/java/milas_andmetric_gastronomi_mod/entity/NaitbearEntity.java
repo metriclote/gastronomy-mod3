@@ -103,7 +103,7 @@ public class NaitbearEntity extends PathfinderMob {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 720);
-		builder = builder.add(Attributes.ARMOR, 4);
+		builder = builder.add(Attributes.ARMOR, 8);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 100);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.STEP_HEIGHT, 0.6);

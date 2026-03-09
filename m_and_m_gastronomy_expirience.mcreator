@@ -6917,8 +6917,8 @@
         "files": [
           "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/NaitbearRenderer.java",
           "src/main/resources/assets/milas_and_metric_gastronomy_mod/models/item/naitbear_spawn_egg.json",
-          "src/main/java/milas_andmetric_gastronomi_mod/entity/NaitbearEntity.java",
-          "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/naitbear_spawn_egg.json"
+          "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/naitbear_spawn_egg.json",
+          "src/main/java/milas_andmetric_gastronomi_mod/entity/NaitbearEntity.java"
         ]
       },
       "path": "~/1.21"
@@ -8473,10 +8473,10 @@
       "registry_name": "aranahamburguesa",
       "metadata": {
         "files": [
-          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/AranahamburguesaRenderer.java",
           "src/main/java/milas_andmetric_gastronomi_mod/entity/AranahamburguesaEntity.java",
           "src/main/resources/assets/milas_and_metric_gastronomy_mod/models/item/aranahamburguesa_spawn_egg.json",
-          "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/aranahamburguesa_spawn_egg.json"
+          "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/aranahamburguesa_spawn_egg.json",
+          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/AranahamburguesaRenderer.java"
         ]
       },
       "path": "~/1.23"
@@ -8551,10 +8551,10 @@
       "registry_name": "serpientehelado",
       "metadata": {
         "files": [
-          "src/main/resources/data/milas_and_metric_gastronomy_mod/neoforge/biome_modifier/serpientehelado_biome_modifier.json",
           "src/main/resources/assets/milas_and_metric_gastronomy_mod/models/item/serpientehelado_spawn_egg.json",
-          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/SerpienteheladoRenderer.java",
+          "src/main/resources/data/milas_and_metric_gastronomy_mod/neoforge/biome_modifier/serpientehelado_biome_modifier.json",
           "src/main/java/milas_andmetric_gastronomi_mod/entity/SerpienteheladoEntity.java",
+          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/SerpienteheladoRenderer.java",
           "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/serpientehelado_spawn_egg.json"
         ]
       },
@@ -8789,10 +8789,10 @@
       "registry_name": "dumplingigante",
       "metadata": {
         "files": [
-          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/DumplingiganteRenderer.java",
           "src/main/java/milas_andmetric_gastronomi_mod/entity/DumplingiganteEntity.java",
+          "src/main/resources/assets/milas_and_metric_gastronomy_mod/models/item/dumplingigante_spawn_egg.json",
           "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/dumplingigante_spawn_egg.json",
-          "src/main/resources/assets/milas_and_metric_gastronomy_mod/models/item/dumplingigante_spawn_egg.json"
+          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/DumplingiganteRenderer.java"
         ]
       },
       "path": "~/1.22"
@@ -9158,6 +9158,40 @@
         "files": [
           "src/main/resources/data/milas_and_metric_gastronomy_mod/recipe/pizzacraft.json",
           "src/main/resources/data/milas_and_metric_gastronomy_mod/advancement/recipes/pizzacraft.json"
+        ]
+      },
+      "path": "~/1.23"
+    },
+    {
+      "name": "Butterfrog",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterfrog",
+      "metadata": {
+        "files": [
+          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/ButterfrogRenderer.java",
+          "src/main/resources/assets/milas_and_metric_gastronomy_mod/models/item/butterfrog_spawn_egg.json",
+          "src/main/resources/data/milas_and_metric_gastronomy_mod/neoforge/biome_modifier/butterfrog_biome_modifier.json",
+          "src/main/java/milas_andmetric_gastronomi_mod/entity/ButterfrogEntity.java",
+          "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/butterfrog_spawn_egg.json"
+        ]
+      },
+      "path": "~/1.23"
+    },
+    {
+      "name": "Arandan",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arandan",
+      "metadata": {
+        "files": [
+          "src/main/java/milas_andmetric_gastronomi_mod/entity/ArandanEntity.java",
+          "src/main/resources/data/milas_and_metric_gastronomy_mod/neoforge/biome_modifier/arandan_biome_modifier.json",
+          "src/main/resources/assets/milas_and_metric_gastronomy_mod/models/item/arandan_spawn_egg.json",
+          "src/main/java/milas_andmetric_gastronomi_mod/client/renderer/ArandanRenderer.java",
+          "src/main/resources/assets/milas_and_metric_gastronomy_mod/items/arandan_spawn_egg.json"
         ]
       },
       "path": "~/1.23"
@@ -10374,7 +10408,11 @@
       "item.milas_and_metric_gastronomy_mod.malteada": "malteada",
       "item.milas_and_metric_gastronomy_mod.malteadametric": "malteada metric",
       "item.milas_and_metric_gastronomy_mod.cremabatida": "Crema batida",
-      "item.milas_and_metric_gastronomy_mod.pizzacongelada": "pizza congelada"
+      "item.milas_and_metric_gastronomy_mod.pizzacongelada": "pizza congelada",
+      "entity.milas_and_metric_gastronomy_mod.butterfrog": "butter frog",
+      "item.milas_and_metric_gastronomy_mod.butterfrog_spawn_egg": "butter frog Spawn Egg",
+      "item.milas_and_metric_gastronomy_mod.arandan_spawn_egg": "arandano Spawn Egg",
+      "entity.milas_and_metric_gastronomy_mod.arandan": "arandano"
     }
   },
   "metadata": {

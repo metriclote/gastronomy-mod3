@@ -218,7 +218,7 @@ public class MilasAndMetricGastronomyModModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<SerpienteheladoEntity>> SERPIENTEHELADO = register("serpientehelado",
 			EntityType.Builder.<SerpienteheladoEntity>of(SerpienteheladoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 1f));
+					.sized(0.8f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<DumplingiganteEntity>> DUMPLINGIGANTE = register("dumplingigante",
 			EntityType.Builder.<DumplingiganteEntity>of(DumplingiganteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -227,6 +227,14 @@ public class MilasAndMetricGastronomyModModEntities {
 			EntityType.Builder.<MalteaditoEntity>of(MalteaditoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ButterfrogEntity>> BUTTERFROG = register("butterfrog",
+			EntityType.Builder.<ButterfrogEntity>of(ButterfrogEntity::new, MobCategory.WATER_CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ArandanEntity>> ARANDAN = register("arandan",
+			EntityType.Builder.<ArandanEntity>of(ArandanEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+
+					.sized(0.8f, 1.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -287,6 +295,8 @@ public class MilasAndMetricGastronomyModModEntities {
 		SerpienteheladoEntity.init(event);
 		DumplingiganteEntity.init(event);
 		MalteaditoEntity.init(event);
+		ButterfrogEntity.init(event);
+		ArandanEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -342,5 +352,7 @@ public class MilasAndMetricGastronomyModModEntities {
 		event.put(SERPIENTEHELADO.get(), SerpienteheladoEntity.createAttributes().build());
 		event.put(DUMPLINGIGANTE.get(), DumplingiganteEntity.createAttributes().build());
 		event.put(MALTEADITO.get(), MalteaditoEntity.createAttributes().build());
+		event.put(BUTTERFROG.get(), ButterfrogEntity.createAttributes().build());
+		event.put(ARANDAN.get(), ArandanEntity.createAttributes().build());
 	}
 }

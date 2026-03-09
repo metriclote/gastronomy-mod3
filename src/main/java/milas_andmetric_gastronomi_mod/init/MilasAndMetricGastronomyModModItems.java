@@ -346,6 +346,8 @@ public class MilasAndMetricGastronomyModModItems {
 	public static final DeferredItem<Item> MALTEADAMETRIC;
 	public static final DeferredItem<Item> CREMABATIDA;
 	public static final DeferredItem<Item> PIZZACONGELADA;
+	public static final DeferredItem<Item> BUTTERFROG_SPAWN_EGG;
+	public static final DeferredItem<Item> ARANDAN_SPAWN_EGG;
 	static {
 		MESADEGATRONOMIA = block(MilasAndMetricGastronomyModModBlocks.MESADEGATRONOMIA);
 		TAMAL = register("tamal", TamalItem::new);
@@ -668,6 +670,8 @@ public class MilasAndMetricGastronomyModModItems {
 		MALTEADAMETRIC = register("malteadametric", MalteadametricItem::new);
 		CREMABATIDA = register("cremabatida", CremabatidaItem::new);
 		PIZZACONGELADA = register("pizzacongelada", PizzacongeladaItem::new);
+		BUTTERFROG_SPAWN_EGG = register("butterfrog_spawn_egg", properties -> new SpawnEggItem(MilasAndMetricGastronomyModModEntities.BUTTERFROG.get(), properties));
+		ARANDAN_SPAWN_EGG = register("arandan_spawn_egg", properties -> new SpawnEggItem(MilasAndMetricGastronomyModModEntities.ARANDAN.get(), properties));
 	}
 
 	// Start of user code block custom items

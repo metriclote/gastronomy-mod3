@@ -65,5 +65,7 @@ public class MilasAndMetricGastronomyModModEntityRenderers {
 		event.registerEntityRenderer(MilasAndMetricGastronomyModModEntities.SERPIENTEHELADO.get(), SerpienteheladoRenderer::new);
 		event.registerEntityRenderer(MilasAndMetricGastronomyModModEntities.DUMPLINGIGANTE.get(), DumplingiganteRenderer::new);
 		event.registerEntityRenderer(MilasAndMetricGastronomyModModEntities.MALTEADITO.get(), MalteaditoRenderer::new);
+		event.registerEntityRenderer(MilasAndMetricGastronomyModModEntities.BUTTERFROG.get(), ButterfrogRenderer::new);
+		event.registerEntityRenderer(MilasAndMetricGastronomyModModEntities.ARANDAN.get(), ArandanRenderer::new);
 	}
 }

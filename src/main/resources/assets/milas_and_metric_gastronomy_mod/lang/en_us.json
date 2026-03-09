@@ -996,5 +996,9 @@
   "item.milas_and_metric_gastronomy_mod.malteada": "malteada",
   "item.milas_and_metric_gastronomy_mod.malteadametric": "malteada metric",
   "item.milas_and_metric_gastronomy_mod.cremabatida": "Crema batida",
-  "item.milas_and_metric_gastronomy_mod.pizzacongelada": "pizza congelada"
+  "item.milas_and_metric_gastronomy_mod.pizzacongelada": "pizza congelada",
+  "entity.milas_and_metric_gastronomy_mod.butterfrog": "butter frog",
+  "item.milas_and_metric_gastronomy_mod.butterfrog_spawn_egg": "butter frog Spawn Egg",
+  "item.milas_and_metric_gastronomy_mod.arandan_spawn_egg": "arandano Spawn Egg",
+  "entity.milas_and_metric_gastronomy_mod.arandan": "arandano"
 }

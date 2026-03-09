@@ -29,6 +29,6 @@ public class SerpienteheladoRenderer extends MobRenderer<SerpienteheladoEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
-		return ResourceLocation.parse("milas_and_metric_gastronomy_mod:textures/entities/serpientehelado.png");
+		return ResourceLocation.parse("milas_and_metric_gastronomy_mod:textures/entities/snake_helada.png");
 	}
 }
